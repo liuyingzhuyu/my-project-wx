@@ -1,7 +1,7 @@
 <template>
   <view class="content">
-    首页
-    <button @click="toRoute">1111111111111111111</button>
+   测试
+    <button @click="toRoute">222</button>
   </view>
 </template>
 
@@ -16,18 +16,13 @@ export default {
   methods: {
     toRoute() {
       this.$mRouter.push({
-        route: this.$mRoutesConfig.test,
+        route: this.$mRoutesConfig.login,
       });
     },
   },
 };
 </script>
 
-<style scoped lang="scss">
-.content{
-  background: yellowgreen;
-  button {
-    background-color: red ;;
-  }
-}
+<style>
+
 </style>
