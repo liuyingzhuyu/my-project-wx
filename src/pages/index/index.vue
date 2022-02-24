@@ -1,7 +1,8 @@
 <template>
   <view class="content">
     首页
-    <button @click="toRoute">1111111111111111111</button>
+    <button @click="toRoute">11111111111111111112</button>
+    <image :src="loginBg" class="image">
   </view>
 </template>
 
@@ -10,6 +11,7 @@ export default {
   data() {
     return {
       title: "Hello",
+      loginBg:this.$mAssetsConfig.loginBg,
     };
   },
   onLoad() {},
@@ -27,7 +29,12 @@ export default {
 .content{
   background: yellowgreen;
   button {
-    background-color: red ;;
+    background-color: red ;
+    color: $uni-color-primary;
+  }
+  .image{
+    width: 300rpx;
+    height: 300rpx
   }
 }
 </style>
