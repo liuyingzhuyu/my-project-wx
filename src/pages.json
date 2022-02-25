@@ -2,18 +2,30 @@
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
 			"path": "pages/index/index",
+            "name":"index",
+            "meta":{
+                "title": "首页"
+            },
 			"style": {
 				"navigationBarTitleText": "uni-app"
 			}
 		},
 		{
 			"path": "pages/index/test",
+			"name":"test",
+            "meta":{
+                "title": "测试页"
+            },
 			"style": {
 				"navigationBarTitleText": "uni-app22"
 			}
 		},
 		{
 			"path": "pages/login/login",
+			"name":"login",
+            "meta":{
+                "title": "登录页"
+            },
 			"style": {
 				"navigationBarTitleText": "uni-app22"
 			}

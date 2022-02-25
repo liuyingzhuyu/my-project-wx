@@ -11190,6 +11190,16 @@ unbox-primitive@^1.0.1:
     has-symbols "^1.0.2"
     which-boxed-primitive "^1.0.2"
 
+uni-read-pages@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/uni-read-pages/-/uni-read-pages-1.0.5.tgz#452c8dcaa8977bbaef600909be926c8d9704387c"
+  integrity sha512-GkrrZ0LX0vn9R5k6RKEi0Ez3Q3e2vUpjXQ8Z6/K/d28KudI9ajqgt8WEjQFlG5EPm1K6uTArN8LlqmZTEixDUA==
+
+uni-simple-router@^2.0.8-beta.3:
+  version "2.0.8-beta.3"
+  resolved "https://registry.yarnpkg.com/uni-simple-router/-/uni-simple-router-2.0.8-beta.3.tgz#1265f86bdaef0999a2b754ab5303f09f874209d0"
+  integrity sha512-Aiw9O7TzATZ0BH9e6p0hJsVy8K1lYjf3P9QMmskNqJaOh9jltCaurrw/dJZ7xUMGVu/K3XP1MxOotBAUjsiUZg==
+
 unicode-canonical-property-names-ecmascript@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/unicode-canonical-property-names-ecmascript/-/unicode-canonical-property-names-ecmascript-2.0.0.tgz#301acdc525631670d39f6146e0e77ff6bbdebddc"
