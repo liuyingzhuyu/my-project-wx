@@ -17,9 +17,7 @@ export default {
   onLoad() {},
   methods: {
     toRoute() {
-      this.$mRouter.push({
-        route: this.$mRoutesConfig.test,
-      });
+   
     },
   },
 };

@@ -1,6 +1,4 @@
 
-import $mRoutesConfig from '@/config/routes.config.js'
-import $mRouter from '@/common/router.js'
 // import {wxlogin, findMemberByToken} from '@/apis/login.js'
 const TOKEN = uni.getStorageSync("token") || "";
 const USER_INFO = uni.getStorageSync("userInfo") || {};
@@ -36,9 +34,7 @@ export default {
 		
 					success(res) {
 						if (res.confirm) {
-							$mRouter.push({
-								route: $mRoutesConfig.login
-							});
+							
 						} 
 					}
 				})
@@ -114,9 +110,7 @@ export default {
 		// 登录过期 重新登录
 		reLogin({commit}, info) {
 			// commit("SET_LOGOUT", "");
-			// $mRouter.redirectTo({
-			// 	route: $mRoutesConfig.login
-			// });
+
 		},
 		logout ({commit}) {
 			// uni.showModal({
@@ -125,9 +119,7 @@ export default {
 			// 	success: res => {
 			// 		if (res.confirm) {
 			// 			commit("SET_LOGOUT",'');
-			// 			$mRouter.redirectTo({
-			// 				route: $mRoutesConfig.index
-			// 			});
+
 			// 		}
 			// 	}
 			// })
