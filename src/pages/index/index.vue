@@ -17,7 +17,7 @@ export default {
   onLoad() {},
   methods: {
     toRoute() {
-   
+      this.$Router.push('/pages/index/test')
     },
   },
 };

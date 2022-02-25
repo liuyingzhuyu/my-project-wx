@@ -15,7 +15,7 @@ export default {
   onLoad() {},
   methods: {
     toRoute() {
-      
+      this.$Router.push('/pages/login/login')
     },
   },
 };
