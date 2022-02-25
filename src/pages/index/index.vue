@@ -3,6 +3,9 @@
     首页
     <button @click="toRoute">11111111111111111112</button>
     <image :src="loginBg" class="image">
+    <div>分包跳转</div>
+      <button @click="toSubRoute">sub-index</button>
+      <button @click="toSubRoute2">cart</button>
   </view>
 </template>
 
@@ -19,6 +22,12 @@ export default {
     toRoute() {
       this.$Router.push('/pages/index/test')
     },
+    toSubRoute() {
+      this.$Router.push('/pages/sub/a')
+    },
+    toSubRoute2() {
+      this.$Router.push('/pages/sub/cart')
+    },
   },
 };
 </script>
@@ -27,7 +36,7 @@ export default {
 .content{
   background: yellowgreen;
   button {
-    background-color: red ;
+    // background-color: red ;
     color: $uni-color-primary;
   }
   .image{

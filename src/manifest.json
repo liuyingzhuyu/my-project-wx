@@ -59,9 +59,13 @@
 			"urlCheck": false,
 			"es6" : true,
 			"minified" : true,
-			"checkSiteMap": false// 关闭路由跳转警告
+			"checkSiteMap": false // 关闭路由跳转警告
 		},
-		"usingComponents": true
+		"usingComponents": true,
+		"optimization": {
+			"subPackages": true
+		}
+
 	},
 	"mp-alipay" : {
         "usingComponents" : true
