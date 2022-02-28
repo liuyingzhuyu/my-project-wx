@@ -31,6 +31,18 @@
 			}
 		}
 	],
+	"subPackages": [{
+        "root": "pages/sub",
+        "pages": [{
+            "path": "a",
+            "style": { }
+        },
+		{
+            "path": "b",
+            "style": { }
+        }
+	]
+    }],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
